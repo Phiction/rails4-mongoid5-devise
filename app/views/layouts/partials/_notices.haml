@@ -1,0 +1,6 @@
+- flash.each do |name, msg|
+  - if msg.is_a?(Array)
+    - for message in msg
+      = content_tag :div, "#{notice_close_button}#{message}".try(:html_safe), class: "alert flash-#{name} alert-dismissible"
+  - else
+    = content_tag :div, "#{notice_close_button}#{msg}".try(:html_safe), class: "alert flash-#{name}"
