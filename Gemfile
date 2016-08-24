@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
 
-# gem 'sqlite3'
-gem 'rails', '4.2.5'
-gem 'sass-rails', '~> 5.0'
+gem 'rails', '4.2.7'
+gem 'sass-rails', '~> 5.0.6'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'therubyracer', platforms: :ruby
+# gem 'therubyracer', platforms: :ruby
 gem 'haml'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
@@ -25,7 +24,7 @@ gem 'mongoid', '~> 5.0.1'
 gem 'devise', '~> 3.5.2'
 
 gem 'bootstrap-sass'
-gem 'autoprefixer-rails'
+gem 'autoprefixer-rails', '~> 6.4'
 gem 'nprogress-rails'
 
 gem 'colorize'
