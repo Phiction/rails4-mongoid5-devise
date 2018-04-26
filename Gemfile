@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7'
+gem 'rails', '4.2.10'
+gem 'rails-html-sanitizer', '~> 1.0.4'
 gem 'sass-rails', '~> 5.0.6'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
-# gem 'therubyracer', platforms: :ruby
 gem 'haml'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
@@ -12,9 +12,10 @@ gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'nokogiri'
+gem 'nokogiri', '~> 1.8.2'
 gem 'curb'
 gem 'kaminari'
+gem 'loofah', '~> 2.2.1'
 
 gem 'redcarpet'
 gem 'github-markup'
